@@ -1,0 +1,14 @@
+env:
+  matrix:
+    secure: dABlMfsA3pg2crzR+nAaDcMJgaUVoKSb8yN6rJx3P38pup54y5tAvBiF/DtqTWnAUOVdkc6UTFXLzvuk33O9BTbG73DkhQxnc9yGEGPOxukTunc2iz7Mv0XMgqCtBG1sal/RzLrd3PrnOkfddBi+g3RthWqj4KA5IR7lhgdqlQrHL/I0zeyJ69iA3JYQcoYscmmiyL3eo3iCSDj5e/WZlpNp0YFRx7Br+t9VlFs79TGPvZxHcCqc97DbDRMkGzsxBwi1BBW2a4Wzn8T+ExH1h0ALUa6Qna4jiUSBJj/TzU5DtB3kp7NIKM/Dhac98LNnWcO6qXau9lafOZwSundlQh+/2zkA3RGde/k18mlv9KYvoycEvL9sPyi9PvcMtbhGN33M9oMIle+9ASCt5F7WyuJYHzUG8HzVWyhEW9p4kHg+Pb78rYXc/G6reIpr9hqU1EKMcslzkpORFHPZJvbXsmBKdhnH7UsgiuI1axJ+H5iUJJN0VQlBRdVfxUI7qzJKM6OXu4HMuQEpB57rUjdSBw9luG0dKxOe4Xvf63TL0KQ0/E6WvSLCSioLSBX1QhZ+XAyjqS9C+I5ULnjhaTf6strlQzo3xqfpJoJy/QMQtiF4ebaxvHdV8azDVR9quj3mmLLGeM1xwhK0pYe+usx193jsTre1+yKmU3wMjz4q0Oo=
+
+sudo: required
+services:
+  - docker
+
+dist: xenial
+
+language: bash
+
+script:
+  - ./build.sh
